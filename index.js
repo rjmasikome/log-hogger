@@ -1,7 +1,8 @@
 const main = require("./lib/main");
 
-module.exports = (config = {}) => {
+// module.exports = (config = {}) => {
 
+  const config = {};
   const dbConfig = {
     mongoUrl: config.mongoUrl || "mongodb://localhost:27017/",
     db: config.db || config.database || "log-hogger",
@@ -10,4 +11,6 @@ module.exports = (config = {}) => {
   };
 
   main(dbConfig);
-}
+
+  console.log("Broh");
+// }
