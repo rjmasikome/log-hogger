@@ -1,6 +1,6 @@
 const main = require("./lib/main");
 
-// module.exports = (config = {}) => {
+module.exports = (config = {}) => {
 
   const config = {};
   const dbConfig = {
@@ -11,6 +11,4 @@ const main = require("./lib/main");
   };
 
   main(dbConfig);
-
-  console.log("Test", "Yasss", "Basic");
-// }
+}
