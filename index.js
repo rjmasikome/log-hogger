@@ -10,6 +10,4 @@ module.exports = (config = {}) => {
   };
 
   main(dbConfig);
-
-  console.log("Broh");
 }
