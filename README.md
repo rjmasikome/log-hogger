@@ -5,6 +5,7 @@ Module to have a persistent console methods. Now there are no more untracked `co
 ## Pre-requisite and requirement
 * Make sure `mongodb` is installed
 * No access control to your mongo (Can be accessed without password)
+* Update node to version 7
 
 ## Installation and Usage
 
