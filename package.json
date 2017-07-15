@@ -1,6 +1,6 @@
 {
   "name": "log-hogger",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "To keep the log persistent in mongo",
   "main": "index.js",
   "scripts": {
