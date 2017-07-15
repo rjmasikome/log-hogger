@@ -7,7 +7,7 @@ module.exports = (config = {}) => {
     db: config.db || config.database || "log-hogger",
     collection: config.collection || "logs",
     methods: config.methods || ["log", "warn", "error", "info"],
-    concat: config.concat === false ? false : true,
+    concat: config.concat === false ? false : true
   };
 
   main(dbConfig);
