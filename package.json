@@ -10,5 +10,26 @@
   "license": "ISC",
   "dependencies": {
     "mongodb": "^2.2.30"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjmasikome/log-hogger.git"
+  },
+  "keywords": [
+    "console",
+    "methods",
+    "persistent",
+    "console.log",
+    "console.error",
+    "track",
+    "log"
+  ],
+  "bugs": {
+    "url": "https://github.com/rjmasikome/log-hogger/issues"
+  },
+  "homepage": "https://github.com/rjmasikome/log-hogger#readme"
 }
